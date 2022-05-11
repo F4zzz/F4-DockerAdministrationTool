@@ -290,8 +290,8 @@ Map a port: -p <HostPort>:<ContainerPort>
 Start in background: -d
 Set the Entrypoint: -it 
 
-Example: docker run -p <HostPort>:<ContainerPort> --name=<name> -dit <entrypoint> <Image>
-Example: docker run -p 80:80 --name=F4Container -dit /bin/bash archlinux
+Example: docker run -p <HostPort>:<ContainerPort> --name=<name> -dit <Image> <entrypoint> 
+Example: docker run -p 80:80 --name=F4Container -dit archlinux /bin/bash 
 +-----------------------------------------------------------------------------------------------------+"
             menu
             ;;
